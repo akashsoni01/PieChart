@@ -10,15 +10,20 @@ import UIKit
 import PieCharts
 
 class ViewController: UIViewController ,PieChartDelegate{
+
+    
     @IBOutlet weak var piechart: PieChart!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        piechart.layers = [PiePlainTextLayer(), PieLineTextLayer()]
+
         piechart.models = [
             PieSliceModel(value: 2.1, color: UIColor.yellow),
             PieSliceModel(value: 3, color: UIColor.blue),
             PieSliceModel(value: 1, color: UIColor.green)
         ]
+        piechart.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -29,9 +34,10 @@ class ViewController: UIViewController ,PieChartDelegate{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     func onSelected(slice: PieSlice, selected: Bool) {
-        print("jdsklfjlakds")
     }
+    
 
 }
 
