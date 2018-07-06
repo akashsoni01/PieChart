@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D9ED7F0C47E3E0C3F62F70 /* Pods_PiChartTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEADFDB68A722AF397001EBE /* Pods_PiChartTest.framework */; };
+		FFDAD87920EF6AE000CA6BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDAD87820EF6AE000CA6BBE /* AppDelegate.swift */; };
+		FFDAD87B20EF6AE000CA6BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDAD87A20EF6AE000CA6BBE /* ViewController.swift */; };
+		FFDAD87E20EF6AE000CA6BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDAD87C20EF6AE000CA6BBE /* Main.storyboard */; };
+		FFDAD88020EF6AE000CA6BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDAD87F20EF6AE000CA6BBE /* Assets.xcassets */; };
+		FFDAD88320EF6AE100CA6BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDAD88120EF6AE100CA6BBE /* LaunchScreen.storyboard */; };
+		FFDAD88B20EF6E8900CA6BBE /* Pods_PiChartTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEADFDB68A722AF397001EBE /* Pods_PiChartTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFDAD88C20EF6E8900CA6BBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFDAD88B20EF6E8900CA6BBE /* Pods_PiChartTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6B725A123A9E2665061E53C /* Pods-PiChartTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiChartTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiChartTest/Pods-PiChartTest.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB0D9295422AA097CAE0E9A /* Pods-PiChartTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiChartTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiChartTest/Pods-PiChartTest.release.xcconfig"; sourceTree = "<group>"; };
+		FEADFDB68A722AF397001EBE /* Pods_PiChartTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiChartTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDAD87520EF6AE000CA6BBE /* PiChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDAD87820EF6AE000CA6BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFDAD87A20EF6AE000CA6BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFDAD87D20EF6AE000CA6BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDAD87F20EF6AE000CA6BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDAD88220EF6AE100CA6BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDAD88420EF6AE100CA6BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDAD87220EF6AE000CA6BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D9ED7F0C47E3E0C3F62F70 /* Pods_PiChartTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77E9FEA04DB6CEFAB1088B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEADFDB68A722AF397001EBE /* Pods_PiChartTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0C18DC1981CC365911F75CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6B725A123A9E2665061E53C /* Pods-PiChartTest.debug.xcconfig */,
+				ECB0D9295422AA097CAE0E9A /* Pods-PiChartTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFDAD86C20EF6ADF00CA6BBE = {
+			isa = PBXGroup;
+			children = (
+				FFDAD87720EF6AE000CA6BBE /* PiChartTest */,
+				FFDAD87620EF6AE000CA6BBE /* Products */,
+				E0C18DC1981CC365911F75CF /* Pods */,
+				C77E9FEA04DB6CEFAB1088B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDAD87620EF6AE000CA6BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAD87520EF6AE000CA6BBE /* PiChartTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDAD87720EF6AE000CA6BBE /* PiChartTest */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAD87820EF6AE000CA6BBE /* AppDelegate.swift */,
+				FFDAD87A20EF6AE000CA6BBE /* ViewController.swift */,
+				FFDAD87C20EF6AE000CA6BBE /* Main.storyboard */,
+				FFDAD87F20EF6AE000CA6BBE /* Assets.xcassets */,
+				FFDAD88120EF6AE100CA6BBE /* LaunchScreen.storyboard */,
+				FFDAD88420EF6AE100CA6BBE /* Info.plist */,
+			);
+			path = PiChartTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDAD87420EF6AE000CA6BBE /* PiChartTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDAD88720EF6AE100CA6BBE /* Build configuration list for PBXNativeTarget "PiChartTest" */;
+			buildPhases = (
+				611F72B7A49CD1138B1D4230 /* [CP] Check Pods Manifest.lock */,
+				FFDAD87120EF6AE000CA6BBE /* Sources */,
+				FFDAD87220EF6AE000CA6BBE /* Frameworks */,
+				FFDAD87320EF6AE000CA6BBE /* Resources */,
+				40FBAC74C12A6001A2C7FCAD /* [CP] Embed Pods Frameworks */,
+				FFDAD88C20EF6E8900CA6BBE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiChartTest;
+			productName = PiChartTest;
+			productReference = FFDAD87520EF6AE000CA6BBE /* PiChartTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDAD86D20EF6ADF00CA6BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Akash soni";
+				TargetAttributes = {
+					FFDAD87420EF6AE000CA6BBE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFDAD87020EF6ADF00CA6BBE /* Build configuration list for PBXProject "PiChartTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDAD86C20EF6ADF00CA6BBE;
+			productRefGroup = FFDAD87620EF6AE000CA6BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDAD87420EF6AE000CA6BBE /* PiChartTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDAD87320EF6AE000CA6BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDAD88320EF6AE100CA6BBE /* LaunchScreen.storyboard in Resources */,
+				FFDAD88020EF6AE000CA6BBE /* Assets.xcassets in Resources */,
+				FFDAD87E20EF6AE000CA6BBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40FBAC74C12A6001A2C7FCAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PiChartTest/Pods-PiChartTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PieCharts/PieCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PieCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiChartTest/Pods-PiChartTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611F72B7A49CD1138B1D4230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiChartTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDAD87120EF6AE000CA6BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDAD87B20EF6AE000CA6BBE /* ViewController.swift in Sources */,
+				FFDAD87920EF6AE000CA6BBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFDAD87C20EF6AE000CA6BBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDAD87D20EF6AE000CA6BBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDAD88120EF6AE100CA6BBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDAD88220EF6AE100CA6BBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDAD88520EF6AE100CA6BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFDAD88620EF6AE100CA6BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDAD88820EF6AE100CA6BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B725A123A9E2665061E53C /* Pods-PiChartTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M3S3E76ML;
+				INFOPLIST_FILE = PiChartTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akashsoni.PiChartTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDAD88920EF6AE100CA6BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB0D9295422AA097CAE0E9A /* Pods-PiChartTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M3S3E76ML;
+				INFOPLIST_FILE = PiChartTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akashsoni.PiChartTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDAD87020EF6ADF00CA6BBE /* Build configuration list for PBXProject "PiChartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDAD88520EF6AE100CA6BBE /* Debug */,
+				FFDAD88620EF6AE100CA6BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDAD88720EF6AE100CA6BBE /* Build configuration list for PBXNativeTarget "PiChartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDAD88820EF6AE100CA6BBE /* Debug */,
+				FFDAD88920EF6AE100CA6BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDAD86D20EF6ADF00CA6BBE /* Project object */;
+}

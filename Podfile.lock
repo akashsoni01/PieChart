@@ -1,0 +1,16 @@
+PODS:
+  - PieCharts (0.0.6)
+
+DEPENDENCIES:
+  - PieCharts
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PieCharts
+
+SPEC CHECKSUMS:
+  PieCharts: f4f866b3ed45dbeda355cc64664091024a9819ee
+
+PODFILE CHECKSUM: 1a4af2f1ef3fd623f29e8cd74e33fa5de4608a24
+
+COCOAPODS: 1.5.3

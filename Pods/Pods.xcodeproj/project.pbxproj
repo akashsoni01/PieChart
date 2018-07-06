@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0523B7C8A63DA42128DD53158BE63E20 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61781FA8547CF9666232B5449CA84A0F /* PieSlice.swift */; };
+		092080F1DF547E2BA5961DE79832BAAA /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F26D4D7FC774AAE66C296E59E75C7 /* Int.swift */; };
+		0AA81CDBF93F9CDF97456CF73BAFF2B9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D609B0327484526D6312614E9A23BDD4 /* Globals.swift */; };
+		0B34B29DCFF24310DB6096F431D05AB8 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130590E02505FD4A84C3C1DE877B47D /* FloatingPoint.swift */; };
+		19D0891D8DF0929968FED7E011FDB992 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18221C09063EE219ADEC95E8390B4092 /* CGPoint.swift */; };
+		1FF0667D8F3FAFB413043E19780518A9 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC4667363B25A20137F27A711432C /* CGRect.swift */; };
+		27CD5ACBCEE0915A06D6A80CABE89D22 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067DC1947EB3CFFEECBEDFCDE6886256 /* PieChart.swift */; };
+		34CAB7F31908ECC2AEB99EA6826049B3 /* PieCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEEB6573FAF6BDC2E11F35C36794430 /* PieCharts-dummy.m */; };
+		4278F411957D3340BF83074367D8A678 /* Pods-PiChartTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30157B3BFD4E25903900968EBCAAF0C2 /* Pods-PiChartTest-dummy.m */; };
+		480A019A435EFA4CFB6727F5BCAAA17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
+		4D623ECDD6171CFBDABA6D3589EEBF45 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CBD73BE8AAD797482F5B2413D493E6 /* CGSize.swift */; };
+		4DF34483354278BD1EA63A3CC7A50CFA /* PieSliceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D65DA7DCF69CB2A398A7121C60846 /* PieSliceDelegate.swift */; };
+		52FEC469DC1B6E386AAA842598CD19BA /* PieCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEB1CC571E5A5D522336FED7D23FD0C /* PieCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53B45AB9FBE5CD4BCC4639C2DC907EEB /* PieSliceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFC709E1281A036A15D751F5865E0B /* PieSliceLayer.swift */; };
+		591759F7DB02B5ED7AA8EF28E1455911 /* Pods-PiChartTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AE6493F3C40AAD52E85EE1EC4597E1 /* Pods-PiChartTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA761451B45C8297D78282043DABCE4 /* PieCustomViewsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B5AE8F4C4EC68E006DB18F4D2EA247 /* PieCustomViewsLayer.swift */; };
+		847BAD9822C05029A78ED83F6F5D92A6 /* PieSliceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434EF7671BBB07C9638A46603E1721B /* PieSliceModel.swift */; };
+		8B3FBEC1B31193573F0D1C3BF7D8E754 /* AlphaPieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA33C5A25D5E12AF10CE8CA75DFC8 /* AlphaPieLineTextLayerAnimator.swift */; };
+		9A299DD920B2ED8FE377CEB51541DC42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
+		A1EF267D6DEDBC911FDC5C8DC34211D4 /* PieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F94261D11A3F02C8CEB638B3F204ED /* PieViewLayerAnimator.swift */; };
+		A886C3EBF285F2B4A7D2A7EB15DC3BD5 /* PieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389263A203728921197AA77453F64684 /* PieLineTextLayerAnimator.swift */; };
+		AAE913602E7E0ED80312A738EAEA12D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */; };
+		CDD5A94AB041BC9ED367E5123254B352 /* PieChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47EDAAB1A96C28C1089E15D1FE9348 /* PieChartLayer.swift */; };
+		CE4A28B70185589B97A52C2375F224E1 /* PieChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBA2C1E617372204674B504ECD054A /* PieChartDelegate.swift */; };
+		E1D62C5AE853D475FBEB562A105BDDA7 /* PiePlainTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6FAD0712EB4A3AEF594605C6C73906 /* PiePlainTextLayer.swift */; };
+		E467687A4A8A981F5293BECDBCDADC74 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9924D4CB59D9408F569F2F335F495 /* PieSliceData.swift */; };
+		E87438828DF8DD13F06F0B969C55B045 /* AlphaPieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B388336FF1ECD12448DBDA3A6B292 /* AlphaPieViewLayerAnimator.swift */; };
+		EC7E3714F37C66B42D016F831C0B4F69 /* PieChartLabelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABABD1C5A6B063D1970897494B414338 /* PieChartLabelSettings.swift */; };
+		F3A030111A7F20F43026797FD72EA57C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */; };
+		FDDB8D65F603EDAFADBA538D28EA7B75 /* PieLineTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72460169B07607195A1870EBBFB182 /* PieLineTextLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74621FED7C1335CA63E59151F60AFB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4B9D023702B55BE61C5C148DF100EA;
+			remoteInfo = PieCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067DC1947EB3CFFEECBEDFCDE6886256 /* PieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = PieCharts/Core/Chart/PieChart.swift; sourceTree = "<group>"; };
+		0D33E228A3B01D21EB0B92E5D6CDBA30 /* Pods-PiChartTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiChartTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E6D65DA7DCF69CB2A398A7121C60846 /* PieSliceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceDelegate.swift; path = PieCharts/Core/Slice/PieSliceDelegate.swift; sourceTree = "<group>"; };
+		139BE3EE1A645B9B4580180111BB5E25 /* Pods-PiChartTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiChartTest-frameworks.sh"; sourceTree = "<group>"; };
+		18221C09063EE219ADEC95E8390B4092 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = PieCharts/Extensions/CGPoint.swift; sourceTree = "<group>"; };
+		1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1C72460169B07607195A1870EBBFB182 /* PieLineTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayer.swift; path = PieCharts/Layer/Impl/LineText/PieLineTextLayer.swift; sourceTree = "<group>"; };
+		225CA1096E77E0113B575065643289EB /* Pods_PiChartTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PiChartTest.framework; path = "Pods-PiChartTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB30855B08C9B55C233969F1AD4995D /* Pods-PiChartTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PiChartTest.modulemap"; sourceTree = "<group>"; };
+		30157B3BFD4E25903900968EBCAAF0C2 /* Pods-PiChartTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiChartTest-dummy.m"; sourceTree = "<group>"; };
+		314A544EFEE8A47437EE44A2D9CBE48D /* PieCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PieCharts.modulemap; sourceTree = "<group>"; };
+		389263A203728921197AA77453F64684 /* PieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/PieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		3AF9924D4CB59D9408F569F2F335F495 /* PieSliceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceData.swift; path = PieCharts/Model/PieSliceData.swift; sourceTree = "<group>"; };
+		417F26D4D7FC774AAE66C296E59E75C7 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = PieCharts/Extensions/Int.swift; sourceTree = "<group>"; };
+		47FBA2C1E617372204674B504ECD054A /* PieChartDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDelegate.swift; path = PieCharts/Core/Chart/PieChartDelegate.swift; sourceTree = "<group>"; };
+		4FEAA33C5A25D5E12AF10CE8CA75DFC8 /* AlphaPieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/AlphaPieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		5CEB1CC571E5A5D522336FED7D23FD0C /* PieCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-umbrella.h"; sourceTree = "<group>"; };
+		61781FA8547CF9666232B5449CA84A0F /* PieSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSlice.swift; path = PieCharts/Core/Slice/PieSlice.swift; sourceTree = "<group>"; };
+		7434EF7671BBB07C9638A46603E1721B /* PieSliceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceModel.swift; path = PieCharts/Model/PieSliceModel.swift; sourceTree = "<group>"; };
+		74B5AE8F4C4EC68E006DB18F4D2EA247 /* PieCustomViewsLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieCustomViewsLayer.swift; path = PieCharts/Layer/Impl/View/PieCustomViewsLayer.swift; sourceTree = "<group>"; };
+		75AE6493F3C40AAD52E85EE1EC4597E1 /* Pods-PiChartTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiChartTest-umbrella.h"; sourceTree = "<group>"; };
+		8130590E02505FD4A84C3C1DE877B47D /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = PieCharts/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
+		888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A582FE08841AC40B5C39DE78720876 /* PieCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.xcconfig; sourceTree = "<group>"; };
+		9B62EF1502926BA09EE5ACE962C25C99 /* Pods-PiChartTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiChartTest.release.xcconfig"; sourceTree = "<group>"; };
+		A2F94261D11A3F02C8CEB638B3F204ED /* PieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/PieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		A5CBD73BE8AAD797482F5B2413D493E6 /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = PieCharts/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		A7E8DE6AEDB2135EE8EAE223521A4300 /* Pods-PiChartTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiChartTest-resources.sh"; sourceTree = "<group>"; };
+		ABABD1C5A6B063D1970897494B414338 /* PieChartLabelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLabelSettings.swift; path = PieCharts/Layer/Impl/Common/PieChartLabelSettings.swift; sourceTree = "<group>"; };
+		B71FE7B0A6C9957B9FF09F7188DD3893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BE47EDAAB1A96C28C1089E15D1FE9348 /* PieChartLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLayer.swift; path = PieCharts/Layer/PieChartLayer.swift; sourceTree = "<group>"; };
+		D2B059DD26342C95B2A50249729351E8 /* PieCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-prefix.pch"; sourceTree = "<group>"; };
+		D609B0327484526D6312614E9A23BDD4 /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = PieCharts/Util/Globals.swift; sourceTree = "<group>"; };
+		D7882B0984690A88A5E79123F4B1BEAE /* Pods-PiChartTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiChartTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0EA5E6F600534213CECC7E3C0B6E90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5FC4667363B25A20137F27A711432C /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = PieCharts/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		DFF97DAA98308CC3E2EFF4DDC6D9BA13 /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PieCharts.framework; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11B388336FF1ECD12448DBDA3A6B292 /* AlphaPieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/AlphaPieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		EDEEB6573FAF6BDC2E11F35C36794430 /* PieCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PieCharts-dummy.m"; sourceTree = "<group>"; };
+		EFEFC709E1281A036A15D751F5865E0B /* PieSliceLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceLayer.swift; path = PieCharts/Core/Slice/PieSliceLayer.swift; sourceTree = "<group>"; };
+		F49B3A2E1F20847E1F73522A7BDDE745 /* Pods-PiChartTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiChartTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE6FAD0712EB4A3AEF594605C6C73906 /* PiePlainTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiePlainTextLayer.swift; path = PieCharts/Layer/Impl/PlainText/PiePlainTextLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051B211DE43C7A0520FB4C9DC42ACEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A299DD920B2ED8FE377CEB51541DC42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A9331E7094391BD25AE6ECDD88E7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A030111A7F20F43026797FD72EA57C /* CoreGraphics.framework in Frameworks */,
+				480A019A435EFA4CFB6727F5BCAAA17A /* Foundation.framework in Frameworks */,
+				AAE913602E7E0ED80312A738EAEA12D6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0117DFC8503B0938DF345CD5D4A74EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A4762E6006FE45573E4C262E7C185 /* PieCharts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47A6EC535EC32B816609BC2A4F65A93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF97DAA98308CC3E2EFF4DDC6D9BA13 /* PieCharts.framework */,
+				225CA1096E77E0113B575065643289EB /* Pods_PiChartTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0117DFC8503B0938DF345CD5D4A74EBC /* Pods */,
+				47A6EC535EC32B816609BC2A4F65A93D /* Products */,
+				BE35E90608630B958C28AD73F13FFC7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82FA4E57F2FC5BA415377B763A290B8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EA5E6F600534213CECC7E3C0B6E90 /* Info.plist */,
+				314A544EFEE8A47437EE44A2D9CBE48D /* PieCharts.modulemap */,
+				98A582FE08841AC40B5C39DE78720876 /* PieCharts.xcconfig */,
+				EDEEB6573FAF6BDC2E11F35C36794430 /* PieCharts-dummy.m */,
+				D2B059DD26342C95B2A50249729351E8 /* PieCharts-prefix.pch */,
+				5CEB1CC571E5A5D522336FED7D23FD0C /* PieCharts-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PieCharts";
+			sourceTree = "<group>";
+		};
+		A6C28881CC420DF2CAF9F999F10F079F /* Pods-PiChartTest */ = {
+			isa = PBXGroup;
+			children = (
+				B71FE7B0A6C9957B9FF09F7188DD3893 /* Info.plist */,
+				2DB30855B08C9B55C233969F1AD4995D /* Pods-PiChartTest.modulemap */,
+				F49B3A2E1F20847E1F73522A7BDDE745 /* Pods-PiChartTest-acknowledgements.markdown */,
+				0D33E228A3B01D21EB0B92E5D6CDBA30 /* Pods-PiChartTest-acknowledgements.plist */,
+				30157B3BFD4E25903900968EBCAAF0C2 /* Pods-PiChartTest-dummy.m */,
+				139BE3EE1A645B9B4580180111BB5E25 /* Pods-PiChartTest-frameworks.sh */,
+				A7E8DE6AEDB2135EE8EAE223521A4300 /* Pods-PiChartTest-resources.sh */,
+				75AE6493F3C40AAD52E85EE1EC4597E1 /* Pods-PiChartTest-umbrella.h */,
+				D7882B0984690A88A5E79123F4B1BEAE /* Pods-PiChartTest.debug.xcconfig */,
+				9B62EF1502926BA09EE5ACE962C25C99 /* Pods-PiChartTest.release.xcconfig */,
+			);
+			name = "Pods-PiChartTest";
+			path = "Target Support Files/Pods-PiChartTest";
+			sourceTree = "<group>";
+		};
+		BE35E90608630B958C28AD73F13FFC7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C28881CC420DF2CAF9F999F10F079F /* Pods-PiChartTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */,
+				888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */,
+				1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE9A4762E6006FE45573E4C262E7C185 /* PieCharts */ = {
+			isa = PBXGroup;
+			children = (
+				4FEAA33C5A25D5E12AF10CE8CA75DFC8 /* AlphaPieLineTextLayerAnimator.swift */,
+				E11B388336FF1ECD12448DBDA3A6B292 /* AlphaPieViewLayerAnimator.swift */,
+				18221C09063EE219ADEC95E8390B4092 /* CGPoint.swift */,
+				DA5FC4667363B25A20137F27A711432C /* CGRect.swift */,
+				A5CBD73BE8AAD797482F5B2413D493E6 /* CGSize.swift */,
+				8130590E02505FD4A84C3C1DE877B47D /* FloatingPoint.swift */,
+				D609B0327484526D6312614E9A23BDD4 /* Globals.swift */,
+				417F26D4D7FC774AAE66C296E59E75C7 /* Int.swift */,
+				067DC1947EB3CFFEECBEDFCDE6886256 /* PieChart.swift */,
+				47FBA2C1E617372204674B504ECD054A /* PieChartDelegate.swift */,
+				ABABD1C5A6B063D1970897494B414338 /* PieChartLabelSettings.swift */,
+				BE47EDAAB1A96C28C1089E15D1FE9348 /* PieChartLayer.swift */,
+				74B5AE8F4C4EC68E006DB18F4D2EA247 /* PieCustomViewsLayer.swift */,
+				1C72460169B07607195A1870EBBFB182 /* PieLineTextLayer.swift */,
+				389263A203728921197AA77453F64684 /* PieLineTextLayerAnimator.swift */,
+				FE6FAD0712EB4A3AEF594605C6C73906 /* PiePlainTextLayer.swift */,
+				61781FA8547CF9666232B5449CA84A0F /* PieSlice.swift */,
+				3AF9924D4CB59D9408F569F2F335F495 /* PieSliceData.swift */,
+				0E6D65DA7DCF69CB2A398A7121C60846 /* PieSliceDelegate.swift */,
+				EFEFC709E1281A036A15D751F5865E0B /* PieSliceLayer.swift */,
+				7434EF7671BBB07C9638A46603E1721B /* PieSliceModel.swift */,
+				A2F94261D11A3F02C8CEB638B3F204ED /* PieViewLayerAnimator.swift */,
+				82FA4E57F2FC5BA415377B763A290B8F /* Support Files */,
+			);
+			name = PieCharts;
+			path = PieCharts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BBBE0219F1FE76DC8124A383D757059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FEC469DC1B6E386AAA842598CD19BA /* PieCharts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2494B488AE9B26B85448F86DDABD8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591759F7DB02B5ED7AA8EF28E1455911 /* Pods-PiChartTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E4B9D023702B55BE61C5C148DF100EA /* PieCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF7ADD158EE979EB96C0FC969FCC821 /* Build configuration list for PBXNativeTarget "PieCharts" */;
+			buildPhases = (
+				893409F1BB3E0853824B2E55FC9502C6 /* Sources */,
+				B3A9331E7094391BD25AE6ECDD88E7CA /* Frameworks */,
+				5BBBE0219F1FE76DC8124A383D757059 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieCharts;
+			productName = PieCharts;
+			productReference = DFF97DAA98308CC3E2EFF4DDC6D9BA13 /* PieCharts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4546A5892C7AB7DAA610C1DF9A2E4BB /* Pods-PiChartTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4E18E8758BA2ADC0E64EA53E26F534 /* Build configuration list for PBXNativeTarget "Pods-PiChartTest" */;
+			buildPhases = (
+				51FB02C6AD35AEC5382705D24F0A5CCC /* Sources */,
+				051B211DE43C7A0520FB4C9DC42ACEC6 /* Frameworks */,
+				8F2494B488AE9B26B85448F86DDABD8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14722C1763F18E5D51F77BC161903A04 /* PBXTargetDependency */,
+			);
+			name = "Pods-PiChartTest";
+			productName = "Pods-PiChartTest";
+			productReference = 225CA1096E77E0113B575065643289EB /* Pods_PiChartTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 47A6EC535EC32B816609BC2A4F65A93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E4B9D023702B55BE61C5C148DF100EA /* PieCharts */,
+				B4546A5892C7AB7DAA610C1DF9A2E4BB /* Pods-PiChartTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FB02C6AD35AEC5382705D24F0A5CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4278F411957D3340BF83074367D8A678 /* Pods-PiChartTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893409F1BB3E0853824B2E55FC9502C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3FBEC1B31193573F0D1C3BF7D8E754 /* AlphaPieLineTextLayerAnimator.swift in Sources */,
+				E87438828DF8DD13F06F0B969C55B045 /* AlphaPieViewLayerAnimator.swift in Sources */,
+				19D0891D8DF0929968FED7E011FDB992 /* CGPoint.swift in Sources */,
+				1FF0667D8F3FAFB413043E19780518A9 /* CGRect.swift in Sources */,
+				4D623ECDD6171CFBDABA6D3589EEBF45 /* CGSize.swift in Sources */,
+				0B34B29DCFF24310DB6096F431D05AB8 /* FloatingPoint.swift in Sources */,
+				0AA81CDBF93F9CDF97456CF73BAFF2B9 /* Globals.swift in Sources */,
+				092080F1DF547E2BA5961DE79832BAAA /* Int.swift in Sources */,
+				27CD5ACBCEE0915A06D6A80CABE89D22 /* PieChart.swift in Sources */,
+				CE4A28B70185589B97A52C2375F224E1 /* PieChartDelegate.swift in Sources */,
+				EC7E3714F37C66B42D016F831C0B4F69 /* PieChartLabelSettings.swift in Sources */,
+				CDD5A94AB041BC9ED367E5123254B352 /* PieChartLayer.swift in Sources */,
+				34CAB7F31908ECC2AEB99EA6826049B3 /* PieCharts-dummy.m in Sources */,
+				6CA761451B45C8297D78282043DABCE4 /* PieCustomViewsLayer.swift in Sources */,
+				FDDB8D65F603EDAFADBA538D28EA7B75 /* PieLineTextLayer.swift in Sources */,
+				A886C3EBF285F2B4A7D2A7EB15DC3BD5 /* PieLineTextLayerAnimator.swift in Sources */,
+				E1D62C5AE853D475FBEB562A105BDDA7 /* PiePlainTextLayer.swift in Sources */,
+				0523B7C8A63DA42128DD53158BE63E20 /* PieSlice.swift in Sources */,
+				E467687A4A8A981F5293BECDBCDADC74 /* PieSliceData.swift in Sources */,
+				4DF34483354278BD1EA63A3CC7A50CFA /* PieSliceDelegate.swift in Sources */,
+				53B45AB9FBE5CD4BCC4639C2DC907EEB /* PieSliceLayer.swift in Sources */,
+				847BAD9822C05029A78ED83F6F5D92A6 /* PieSliceModel.swift in Sources */,
+				A1EF267D6DEDBC911FDC5C8DC34211D4 /* PieViewLayerAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14722C1763F18E5D51F77BC161903A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5E4B9D023702B55BE61C5C148DF100EA /* PieCharts */;
+			targetProxy = 74621FED7C1335CA63E59151F60AFB38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F226EA6C38D9A0677335D7095D0DBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B62EF1502926BA09EE5ACE962C25C99 /* Pods-PiChartTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PiChartTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiChartTest/Pods-PiChartTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FBAB022DFAF098B3B801B27B5BE8D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A582FE08841AC40B5C39DE78720876 /* PieCharts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F077F8CAFC024D42D347FC50CA10E299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7882B0984690A88A5E79123F4B1BEAE /* Pods-PiChartTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PiChartTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiChartTest/Pods-PiChartTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD73195E4266187AC96B78E580972C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A582FE08841AC40B5C39DE78720876 /* PieCharts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF7ADD158EE979EB96C0FC969FCC821 /* Build configuration list for PBXNativeTarget "PieCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBAB022DFAF098B3B801B27B5BE8D53 /* Debug */,
+				FD73195E4266187AC96B78E580972C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4E18E8758BA2ADC0E64EA53E26F534 /* Build configuration list for PBXNativeTarget "Pods-PiChartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F077F8CAFC024D42D347FC50CA10E299 /* Debug */,
+				4F226EA6C38D9A0677335D7095D0DBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
